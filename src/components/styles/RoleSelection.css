@@ -1,0 +1,59 @@
+.role-selection-container {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.roles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.role-option {
+  display: inline-block;
+  padding: 50px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.role-option img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.role-option p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.role-option.selected {
+  border-color: #007bff;
+  background-color: #e6f2ff;
+}
+
+.next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
